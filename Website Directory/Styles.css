@@ -1,0 +1,118 @@
+body
+{
+	font-family:"Arial";
+	background-image:url('CHEEAZE.jpg');
+}
+#h1
+{
+	font-family:"Calibri";
+}
+#h1-2
+{
+	text-align:center;font-family:"Tempus Sans ITC";
+}
+.centered
+{
+	text-align:center;
+}
+#my_first_div
+{
+	position:absolute;
+	left:600px;
+	top:306px;
+	width:400px;
+	height:50%;
+	background-color:#30ED26;
+	font-size:60px;
+	text-align:center;
+	border-style:solid;
+	border-width:3px;
+	border-color:#ED2626;
+	color:#ED2626;
+	border-radius:50px;
+	opacity:0.5;
+	overflow:scroll;
+}
+#my_first_div:hover
+{
+	background-color:#1E39E8;
+}
+#my_first_div:active
+{
+	background-color:#508782;
+	left:300px;
+	top 1000px;
+}
+#my_first_iframe
+{
+	position:absolute;
+	top:150px;
+	left:0px;
+	width:570px;
+	height:400px;
+}
+#my_second_div
+{
+	position:absolute;
+	left:100px;
+	top:39%;
+	border-right-style:dotted;
+	border-right-color:#36EBC3;
+	opacity:0.5;
+	font-size:60px;
+	width:400px;
+	height:60px;
+	font-family:QuickType;
+	border-right-width:5px;
+	color:#17E31E;
+	background-color:#DE1F1F;
+	border-left-style:dashed;
+	border-left-color:#000000;
+	border-radius:10px;
+}
+#my_second_div:hover
+{
+	color:#FFFFFF;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-top-style:dotted
+}
+#paragraph
+{
+	font-size:20px;
+}
+#img1
+{
+	position:absolute;
+	top:60px;
+	left:0px;
+	border-style:solid;
+	border-color:inherit;
+	border-radius:50px;
+}
+#my_third_div
+{
+	background-color:#1AE8DA;
+	position:absolute;
+	box-shadow: 10px 10px 5px #000000;
+	left:190px;
+	top:500px;
+	border-style:dotted;
+	font-family:QuickType;
+	border-width:5px;
+	height:75px;
+	width:350px;
+	font-size:30px;
+	border-color:#16FA4C;
+	resize:both;
+	overflow:auto;
+	display:none;
+	
+}
+button
+{
+	background-color:#16FA4C;
+	border:none;
+	position:absolute;
+	left:400px;
+}

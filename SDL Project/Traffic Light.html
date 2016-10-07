@@ -1,0 +1,100 @@
+<html>
+ <head>
+ <title>Traffic Light</title>
+  <style>
+
+  #traffic_light
+  {
+   background-color:black;
+   position:absolute;
+   top:200px;
+   left:550px;
+   width:200px;
+   height:400px;
+   border-radius:20px;
+  }
+  #redlight
+  {
+   background-color:#960303;
+   position:absolute;
+   top:225px;
+   left:600px;
+   width:100px;
+   height:100px;
+   border-radius:100px;
+  }
+  #yellowlight
+  {
+   background-color:#949401;
+   position:absolute;
+   top:350px;
+   left:600px;
+   width:100px;
+   height:100px;
+   border-radius:100px;
+  }
+  #greenlight
+  {
+   background-color:#0D6102;
+   position:absolute;
+   top:475px;
+   left:600px;
+   width:100px;
+   height:100px;
+   border-radius:100px;
+  }
+  #P
+  {
+   text-align:center;
+   font-size:30px;
+  }
+  button
+  {
+   position:absolute;
+   left:575px;
+   top:700px;
+  }
+   
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+  <script>
+  $(document).ready(function(){
+    $("#redlight").click(function(){
+      $("#redlight").css({"background-color":"red"});
+      $("#yellowlight").css({"background-color":"#949401"});
+      $("#greenlight").css({"background-color":"#0D6102"});
+      $("#P").text("STOP");
+      $("#P").css({"color":"red"});
+    });
+  });
+  $(document).ready(function(){
+    $("#yellowlight").click(function(){
+      $("#yellowlight").css({"background-color":"yellow"});
+      $("#redlight").css({"background-color":"#960303"});
+      $("#greenlight").css({"background-color":"#0D6102"});
+      $("#P").text("SLOW");
+      $("#P").css({"color":"yellow"});
+    });
+  });
+  $(document).ready(function(){
+    $("#greenlight").click(function(){
+      $("#greenlight").css({"background-color":"#0DD90D"});
+      $("#redlight").css({"background-color":"#960303"});
+      $("#yellowlight").css({"background-color":"#949401"});
+      $("#P").text("GO");
+      $("#P").css({"color":"green"});
+    });
+  });
+</script>
+ </head>
+
+ <body>
+  <div id="traffic_light"></div>
+  <div id="redlight"></div>
+  <div id="yellowlight"></div>
+  <div id="greenlight"></div>
+  <p id="P">DEACTIVATED</p>
+  <a href="Website.html"><button>Go To Home Page</button></a>
+ </body>
+</html>

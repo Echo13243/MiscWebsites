@@ -1,0 +1,68 @@
+body
+ {
+  background-color:green;
+  text-align:center;
+  background-repeat:never;
+ }
+#button
+ {
+  background-color:yellow;
+  margin-top:150px;
+  width:1010px;
+  height:300px;
+  font-size:40px;
+  font-family:Arial;
+ }
+#Body
+ {
+  background-image:url("CHEEAZE.jpg");
+ }
+#Menu
+ {
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:5px;
+  width:100%;
+  background-color:black;
+  opacity:0;
+  
+ }
+#Menu:hover
+ {
+  height:100px;
+  background-color:green;
+  opacity:1;
+ }
+#TrafficLight
+ {
+  height:400px;
+  position:absolute;
+  left:550px;
+  top:400px;
+  opacity:0;
+ }
+#TrafficLight:hover
+ {
+  opacity:1;
+ }
+#Where
+ {
+  position:absolute;
+  height:500px;
+  width:500px;
+  left:0px;
+  top:100px;
+ }
+#img1
+ {
+  position:absolute;
+  height:100px;
+  width:100px;
+  top:500px;
+  left:900px;
+  opacity:0;
+ }
+#img1:hover
+ {
+  opacity:1;
